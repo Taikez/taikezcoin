@@ -1,0 +1,56 @@
+console.log(events);
+const events = await hello.queryFilter(filter);
+const filter = hello.filters.NewGreeting(user1.address);
+await hello.connect(user2).setGreeting("Hai 2 lagi");
+await hello.connect(user2).setGreeting("Hai 1");
+await hello.connect(user1).setGreeting("Hai 1 lagi");
+await hello.connect(user1).setGreeting("Hai 1");
+const [user1, user2] = await ethers.getSigners();
+const hello = await HelloBlockchain.attach(contractAddress);
+const HelloBlockchain = await ethers.getContractFactory("HelloBlockchain");
+const contractAddress = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
+await hello.getTotalGreetings()
+await hello.getUserLastUpdatedGreeting(user2.address);
+await hello.getUserLastUpdatedGreeting(user1.address);
+await hello.connect(user2).getGreeting();
+await hello.connect(user2).setGreeting("Hello from User 2");
+await hello.connect(user1).getGreeting();
+await hello.connect(user1).setGreeting("Hello from User 1");
+const [user1, user2] = await ethers.getSigners();
+const hello = await HelloBlockchain.attach(contractAddress);
+const HelloBlockchain = await ethers.getContractFactory("HelloBlockchain");
+const contractAddress = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
+await hello.getUserLastUpdatedGreeting(user2.address);
+await hello.getUserLastUpdatedGreeting(user1.address);
+await hello.connect(user2).setGreeting("Hello from User 2");
+await hello.getUserLastUpdatedGreeting(user1.address);
+await hello.connect(user1).setGreeting("Hello from User 1");
+const [user1, user2] = await ethers.getSigners();
+const hello = await HelloBlockchain.attach(contractAddress);
+const HelloBlockchain = await ethers.getContractFactory("HelloBlockchain");
+const contractAddress = "0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0";
+contractAddress = "0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0";
+contractAddress = "0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0"
+const contractAddress = "0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0";
+const hello = await HelloBlockchain.attach(contractAddress);
+const HelloBlockchain = await ethers.getContractFactory("HelloBlockchain");
+const contractAddress = "YOUR_CONTRACT_ADDRESS";  // Replace this with your contract's address
+await hello.setGreeting("Hello from User 1");
+await hello.getGreeting();  // Should return: "H
+;
+await hello.setGreeting("Hello, Bootcamp!")
+await hello.getGreeting();  // Should return: "Hello, Blockch
+const hello = await HelloBlockchain.attach("YOUR_CONTRACT_ADDRESS");
+const HHelloBlockchain");
+const [owner] = await ethers.getSigners();
+ello, Bootcamp!"
+await hello.setGreeting("Hello, Bootcamp!")await hello.getGreeting();  // Should return: "H
+await hello.getGreeting();  // Should return: "Hello, Blockchain!"
+const Hconst hello = await HelloBlockchain.attach("YOUR_CONTRACT_ADDRESS");
+const [owner] = await ethers.getSigners();
+await hello.getGreeting();  // Should return: "Hello, Bootcamp!"
+await hello.setGreeting("Hello, Bootcamp!");
+await hello.getGreeting();  // Should return: "Hello, Blockchain!"
+const Hconst hello = await HelloBlockchain.attach("YOUR_CONTRACT_ADDRESS");
+const [owner] = await ethers.getSigners();
+clear

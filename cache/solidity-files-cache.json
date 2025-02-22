@@ -1,0 +1,113 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\Code\\Blockchain\\taikezcoin\\contracts\\Lock.sol": {
+      "lastModificationDate": 1739367307635,
+      "contentHash": "fec2f7abee171067cc742887c034283f",
+      "sourceName": "contracts/Lock.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "HelloWorld"
+      ]
+    },
+    "D:\\Code\\Blockchain\\taikezcoin\\contracts\\HelloBlockchain.sol": {
+      "lastModificationDate": 1740142168980,
+      "contentHash": "ff1e8b4d75a77bf541c1617034787b19",
+      "sourceName": "contracts/HelloBlockchain.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "HelloBlockchain"
+      ]
+    },
+    "D:\\Code\\Blockchain\\taikezcoin\\contracts\\GreetingHistory.sol": {
+      "lastModificationDate": 1740060772191,
+      "contentHash": "2f5534481b55e7b49a8b5708179f2e7e",
+      "sourceName": "contracts/GreetingHistory.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "GreetingHistory"
+      ]
+    }
+  }
+}
